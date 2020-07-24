@@ -98,5 +98,5 @@ MatrixChain(p,n,m,s)
 print(m)
 print(s)
 res=[]
-Traceback(0,n-1,res,s)
+Traceback(0,n-2,res,s)
 print(''.join(res))

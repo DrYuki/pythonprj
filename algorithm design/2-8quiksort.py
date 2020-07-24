@@ -116,12 +116,16 @@ def partition(a,p,r,x):
     a[p:r] = low + [x] + high
     return len(low)
 
-#a = [random.randint(1,100) for i in range(10)]
-a = [14, 2, 34, 43, 21, 19]
-print(a)
+a = [random.randint(1,100) for i in range(60)]
+#a = [14, 2, 34, 43, 21, 19]
+
+for i in a:
+    print(i, end=' ')
+print("\n")
 #print(quick_sort(a))
-q = random.randint(0, len(a)-2)
+# q = random.randint(0, len(a)-2)
 q =2
-print(quicksort(a, 0, len(a)-1))
+# print(quicksort(a, 0, len(a)-1))
 a.sort()
-print(a)
+for i in a:
+    print(i, end=' ')
